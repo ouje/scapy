@@ -9,6 +9,7 @@ PacketList: holds several packets and allows to do operations on them.
 
 
 import os,subprocess
+import matplotlib.pyplot as plt
 from .config import conf
 from .base_classes import BasePacket,BasePacketList
 from collections import defaultdict
